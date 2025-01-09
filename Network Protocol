@@ -1,0 +1,21 @@
+Internet Protocol (IP)
+IP Versions
+IPv4 & IPv6
+
+
+Transport Protocols
+
+TCP
+The most common transport protocol used is TCP
+Common use cases for TCP include:
+File transfer
+Web browsing
+CRUD operations
+
+UDP
+Common use cases for UDP include:
+DNS
+Discovery requests
+Video game world state updates
+Video and audio streaming
+Continuous data broadcasts (smart home devices)

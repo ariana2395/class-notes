@@ -1,0 +1,28 @@
+API stands for Application Programming Interface
+Application API vs Web API
+PI that is accessed over the internet instead of by importing a library. Web APIs provide access to data and functionality without requiring the developer using it to know or understand the details of how the data or functionality are provided. They differ from web servers by expanding on the types of functionality that can be provided.
+
+RESTful Convention for web API Servers
+Path Pattern	HTTP Verb	Meaning
+/resource-name	GET	Index: Get all of the records for the resource
+/resource-name	POST	Create: Create a new record for the resource
+/resource-name/record-id	GET	Details: Get the details of the specified record
+/resource-name/record-id	PUT/PATCH	Update: Update the specified record
+/resource-name/record-id	DELETE	Delete: Delete the specified record
+For Nested Resources:
+
+Path Pattern	HTTP Verb	Meaning
+/resource-name/record-id/nested-resource	GET	Index: Get all of the records for the nested resources related to the specified record
+/resource-name/record-id/nested-resource	POST	Create: Create a new record for the nested resource related to the specified record
+/nested-resource/nested-record-id	GET	Details: Get the details of the specified nested resource's record
+/nested-resource/nested-record-id	PUT/PATCH	Update: Update the specified nested resource's record
+/nested-resource/nested-record-id	DELETE	Delete: Delete the specified nested resource's record
+
+CRUD (Create, Read, Update, Delete)
+Create: Typically done with the HTTP POST method.
+Read: Typically done with the HTTP GET method.
+Update: Typically done with the HTTP PUT or PATCH methods.
+Delete: Typically done with the HTTP DELETE method.
+
+A Web API can render HTML pages, but its primary purpose is to transmit data.
+

@@ -1,0 +1,19 @@
+JSON is a format!
+JSON always uses double-quotes to mark strings.
+
+Say you have the following string in JavaScript.
+'this is "text"'
+When that gets converted into the JSON format, you will see this:
+"this is \"text\""
+
+If your quotation mark delimited string has a quotation mark in it, put a backslash before the interior quotation mark.
+"Bob said, \"Well, this is interesting.\""
+
+She woke him up with her Ramones ringtone "I Want
+to be Sedated"
+If you want to format that in a string in JSON format, you have to escape the quotation marks and the new lines! The above would look like this:
+
+She woke him up with\nher Ramones ringtone \"I Want\nto be Sedated\"
+
+JSON.stringify to create JSON-formatted strings that represent those values
+JSON.parse to convert the string into a JavaScript object
