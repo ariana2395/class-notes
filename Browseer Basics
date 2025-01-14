@@ -1,0 +1,17 @@
+Chrome Dev Tools
+Elements and Inspector
+The HTML inspector can be used to figure out how your HTML is structured. You can change the value of any HTML tag attribute by double-clicking on it, or you can edit the entire element and its children by right-clicking on it and selecting Edit as HTML. Your changes will be reflected in the page immediately. You can also drag elements to reorder them or right-click and delete them. These are temporary changes.
+
+Console
+The console is also an extremely handy part of Dev Tools. The console is the place to go for executing code within the context of your page. It's great for viewing the contents of JavaScript objects. Just start typing the name of a JavaScript object, and it'll offer suggestions.
+
+The console is also where everything is outputted when you console.log() in your frontend code. This makes it very useful for simple debugging of your code.
+
+Sources
+The Dev Tools are not just for inspecting and debugging frontend code. You can also use them to write code, particularly CSS and JavaScript. A great way to edit your code is in Dev Tools. Follow these steps to start editing your app's source code with Chrome:
+
+Network
+Network gives you a wealth of information about each request, including the HTTP method, response status code, and load time. You can click on any request to see more information about it, including the headers Chrome sent and those that the server sent back, as well as the request body (for POST and PATCH requests) and the response body.
+
+Application 
+Here, you can view all the types of in-browser storage available to your app, such as local storage, as well as their contents
