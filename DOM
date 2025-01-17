@@ -1,0 +1,12 @@
+DOM (Document Object Model)
+window.onload = function() {
+    // This runs only after ALL resources are loaded:
+    // - All images finished downloading
+    // - All styles are applied
+    // - All subframes are loaded
+    // - All scripts have finished executing
+    console.log("Everything is ready!");
+};
+
+
+https://rayjourney.netlify.app/17weekand18week/more_domcontentloaded_vs_windowload
